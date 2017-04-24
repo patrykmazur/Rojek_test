@@ -8,5 +8,7 @@ namespace Rojek_test
 {
     public class Class1
     {
+        private int a;
+        private string k;
     }
 }
