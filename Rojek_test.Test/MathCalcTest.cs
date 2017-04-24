@@ -11,11 +11,12 @@ namespace Rojek_test.Test
         {
             //arrange
             MathCalc calc = new MathCalc();
-            var expected = 10;
-
 
             //act
+            var result = calc.Add(5, 5);
+
             //assert
+            Assert.AreEqual(10,result);
         }
     }
 }
